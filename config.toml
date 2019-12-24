@@ -1,0 +1,73 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "LaUgH To DeAtH"
+theme = "parsa-hugo"
+
+[parasa.plugin]
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/headroom/headroom.js"
+  [[params.plugins.js]]
+  URL = "plugins/instafeed/instafeed.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/masonry/masonry.js"
+  [[params.plugins.js]]
+  URL = "plugins/reading-time/readingTime.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/smooth-scroll/smooth-scroll.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+
+  [params]
+  logo = "#"
+  home ="Home"
+  homeLayoutToggle = true 
+  description = "memes are every where"
+
+  [params.preloader]
+    enable = true
+  
+[menu]
+   [[menu.main]]
+    name="All memes"
+    url="post"
+    weight="1"
+    [[menu.main]]
+    name="About"
+    url ="about"
+    [[menu.main]]
+    name="contact"
+    url ="contact"
+  [params.search]
+    enable=true
+    [params.footer]
+    [[params.footer.addresses]]
+    address="Yangon"
+
+    [[params.footer.contacts]]
+        contactInfo ="0959888625"
+        [[params.footer.contacts]]
+        contactInfo="yewinnuang1234512@gmail.com"
+        
